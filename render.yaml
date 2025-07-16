@@ -1,6 +1,7 @@
 services:
   - type: web
-    name: chandu-trade-bot
+    name: Chandu-trade-bot
     env: python
+    pythonVersion: 3.10
     buildCommand: "pip install -r requirements.txt"
     startCommand: "python main.py"
